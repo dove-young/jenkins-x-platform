@@ -208,7 +208,7 @@ gcactivities:
   - "activities"
   - "--batch-mode"
   image:
-    repository: gcr.io/jenkinsxio/builder-jx
+    repository: 9.46.76.93:5000/jenkinsxio/builder-jx
     tag: 0.1.785
   role:
     enabled: true
