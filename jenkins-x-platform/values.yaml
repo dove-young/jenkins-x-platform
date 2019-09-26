@@ -2352,7 +2352,7 @@ jenkins:
 
 
 PipelineSecrets:
-  DockerConfig: "{}"
+  DockerConfig: "{\"auths\": { \"mycluster.icp:8500\": { \"auth\": \"YWRtaW46YWRtaW4=\"  } }, \"HttpHeaders\": { \"User-Agent\": \"Docker-Client/19.03.1 (linux)\" }  }"
   GithubToken:
   NPMToken:
   GPG:
